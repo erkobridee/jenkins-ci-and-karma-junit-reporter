@@ -1,0 +1,26 @@
+{
+  "name": "jenkins-ci-and-karma-junit-reporter",
+  "version": "0.1.0",
+  "homepage": "https://github.com/erkobridee/jenkins-ci-and-karma-junit-reporter.git",
+  "authors": [
+    "Erko Bridee de Almeida Cabrera <erko.bridee@gmail.com>"
+  ],
+  "keywords": [
+    "jasmine",
+    "jquery",
+    "requirejs",
+    "angular",
+    "karma",
+    "gulp"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.4",
+    "requirejs": "2.1.20",
+    "angular": "1.4.4",
+    "angular-resource": "1.4.4",
+    "angular-route": "1.4.4",
+    "angular-mocks": "1.4.4"
+  }
+}

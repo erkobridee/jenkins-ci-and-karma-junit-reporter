@@ -1,0 +1,55 @@
+{
+  "name": "jenkins-ci-and-karma-junit-reporter",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/erkobridee/jenkins-ci-and-karma-junit-reporter.git",
+  "authors": [
+    "Erko Bridee de Almeida Cabrera <erko.bridee@gmail.com>"
+  ],
+  "description": "Example to execute Karma Runner through Jenkinks CI and load xml report file. Karma Runner and require.js + angular.js modular application with Gulp.js. Code and test specs together in same directory module. Vendors Libs, Application Source and Tests specs loaded by require.js on Karma Runner test page.",
+  "scripts": {
+    "outdated": "npm outdated --depth=0",
+    "prestart": "npm run setup",
+    "start": "echo \"start development\n\" && gulp dev",
+    "pretest": "npm run setup",
+    "test": "gulp ci",
+    "coverage": "gulp coverage",
+    "setup": "node tools/scripts/setup",
+    "testos": "node tools/scripts/testos"
+  },
+  "keywords": [
+    "test",
+    "karma",
+    "gulp",
+    "angular",
+    "requirejs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.0",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6",
+    "karma-jasmine-html-reporter": "^0.1.8",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-requirejs": "^0.2.2",
+    "lazypipe": "^1.0.1",
+    "lodash": "^3.10.1",
+    "phantomjs": "^1.9.18",
+    "requirejs": "^2.1.20",
+    "run-sequence": "^1.1.2",
+    "yargs": "^3.22.2"
+  }
+}
