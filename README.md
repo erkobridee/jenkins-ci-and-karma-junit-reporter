@@ -1,6 +1,6 @@
 # Jenkins CI and Karma jUnit Report
 
-> Example to execute Karma Runner through Jenkinks CI and load xml report file.
+> Example to execute Karma Runner through Jenkiks CI and load xml report file.
 >
 > Karma Runner and require.js + angular.js modular application with Gulp.js. Code and test specs together in same directory module. Vendors Libs, Application Source and Tests specs loaded by require.js on Karma Runner test page.
 
