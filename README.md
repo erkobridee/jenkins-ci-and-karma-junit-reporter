@@ -39,6 +39,8 @@ $ npm test
 
 ### Gulp
 
+> Based on [[GitHub] soudev / gulp-steps](https://github.com/soudev/gulp-steps) - [04 - enhanced](https://github.com/soudev/gulp-steps/tree/master/04)
+
 * development mode
 
 > Project only
