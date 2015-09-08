@@ -7,15 +7,6 @@
 
 * Must have [Git](http://git-scm.com/) installed
 
-> CMD
-
-* Must have [node.js (at least v0.10.x)](http://nodejs.org/) installed with npm (Node Package Manager)
-
-> Apache Maven
-
-* Must have [Apache Maven](https://maven.apache.org/) installed
-
-
 * jenkins.war - [Jenkins CI](https://jenkins-ci.org/)
 
   * Must have [Java](https://www.java.com/download/) installed
@@ -27,6 +18,10 @@
   * Must have [Docker](https://www.docker.com/) installed
 
     * `docker pull jenkinsci/jenkins`
+
+* Jenkins plugins
+
+  * Must have [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin) installed on Jenkins
 
 
 ## Project Karma configs
@@ -44,7 +39,10 @@
 
 ## Job Config
 
-> TODO: define
+* [execute shell steps](execute_shell.md)
+
+* [apache maven steps](maven.md)
+
 
 ## Links
 

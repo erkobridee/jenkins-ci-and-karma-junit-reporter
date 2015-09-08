@@ -6,7 +6,7 @@
 
 --
 
-* [Jenkins CI docs](jenkins-ci_docs/README.md)
+* [Jenkins CI config docs](jenkins-ci_docs/README.md)
 
 
 ## Prerequisites
