@@ -39,7 +39,7 @@
 
 * on `Add post-build action` combobox select `Publish JUnit test result report`
 
-* on `Test report XMLs` field define `tests_out/junit/*.xml`
+* on `Test report XMLs` field define `tests_out/junit/**/*.xml`
 
 ![jenkins git repo](steps_images/step_04.png)
 
