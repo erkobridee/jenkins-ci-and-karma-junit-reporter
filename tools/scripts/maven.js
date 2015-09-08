@@ -24,6 +24,8 @@ testModuleThenExecute('shelljs', function executeLater() {
 
   echo('----------------------------------------');
 
+  echo(which('bower'));
+
   echo('Installing bower...\n');
   exec('npm install bower');
 
