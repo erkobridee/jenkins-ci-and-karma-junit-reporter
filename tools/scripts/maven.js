@@ -24,18 +24,15 @@ testModuleThenExecute('shelljs', function executeLater() {
 
   echo('----------------------------------------');
 
-  echo(which('bower'));
-
-  echo('Installing bower...\n');
-  exec('npm install bower');
-
-  echo('----------------------------------------');
-
   echo('Installing node dependencies...\n');
   exec('npm install');
 
-  echo('Installing bower components...\n');
-  exec('bower install');
+  testModuleThenExecute('bower', function executeBowerLater(){
+
+    echo('Installing bower components...\n');
+    exec('bower install');
+
+  });
 
   echo('\nOK!');
 
