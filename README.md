@@ -13,7 +13,7 @@
 
 * Must have [Git](http://git-scm.com/) installed
 
-* Must have [node.js (at least v0.10.x)](http://nodejs.org/) installed with npm (Node Package Manager)
+* Must have [node.js (at least v0.10+)](http://nodejs.org/) installed with npm (Node Package Manager)
 
 * Must have [bower](http://bower.io/) node package installed globally
 
@@ -131,6 +131,8 @@ $ gulp ci
   * [[GitHub] karma-runner / karma-junit-reporter](https://github.com/karma-runner/karma-junit-reporter) - A Karma plugin. Report results in junit xml format.
 
   * [[GitHub] karma-runner / karma-requirejs](https://github.com/karma-runner/karma-requirejs) - A Karma plugin. Adapter for RequireJS framework.
+
+* [[GitHub] eirslett / frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) - A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma.
 
 
 ## Licenses

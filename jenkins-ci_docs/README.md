@@ -7,7 +7,14 @@
 
 * Must have [Git](http://git-scm.com/) installed
 
+> CMD
+
 * Must have [node.js (at least v0.10.x)](http://nodejs.org/) installed with npm (Node Package Manager)
+
+> Apache Maven
+
+* Must have [Apache Maven](https://maven.apache.org/) installed
+
 
 * jenkins.war - [Jenkins CI](https://jenkins-ci.org/)
 

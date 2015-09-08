@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.erkobridee.jenkins-ci-and-karma-junit-reporter</groupId>
+  <artifactId>jenkins-ci-and-karma-junit-reporter</artifactId>
+  <version>0.1.0</version>
+  <name>Example to execute Karma Runner through Jenkinks CI and load xml report file</name>
+  <packaging>pom</packaging>
+
+  <properties>
+    <encoding>UTF-8</encoding>
+    <frontend-maven-plugin.version>0.0.23</frontend-maven-plugin.version>
+    <node.version>0.12.3</node.version>
+    <npm.version>2.9.1</npm.version>
+  </properties>
+
+  <build>
+
+    <plugins>
+
+      <plugin>
+
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>${frontend-maven-plugin.version}</version>
+
+        <executions>
+
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+              <nodeVersion>v${node.version}</nodeVersion>
+              <npmVersion>${npm.version}</npmVersion>
+            </configuration>
+          </execution>
+
+
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>run maven</arguments>
+            </configuration>
+          </execution>
+
+
+          <!--
+            see:
+            /tools/gulp/tasks/default.js
+          -->
+          <execution>
+            <id>gulp build</id>
+            <goals>
+              <goal>gulp</goal>
+            </goals>
+            <configuration>
+              <arguments>ci --no-color</arguments>
+            </configuration>
+          </execution>
+
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

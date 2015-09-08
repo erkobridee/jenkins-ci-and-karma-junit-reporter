@@ -14,8 +14,9 @@
     "pretest": "npm run setup",
     "test": "gulp ci",
     "coverage": "gulp coverage",
+    "testos": "node tools/scripts/testos",
     "setup": "node tools/scripts/setup",
-    "testos": "node tools/scripts/testos"
+    "maven": "node tools/scripts/maven"
   },
   "keywords": [
     "test",

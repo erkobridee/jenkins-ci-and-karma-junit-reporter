@@ -7,6 +7,7 @@ lib-cov
 *.pid
 *.gz
 
+etc
 pids
 logs
 results
@@ -15,6 +16,7 @@ results
 # project
 
 dist
+tests_out
 
 #-----------
 # bower
