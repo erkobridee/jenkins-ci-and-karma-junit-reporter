@@ -44,7 +44,7 @@ module.exports = {
     colors: false,
     logLevel: 'ERROR',
     junitReporter: {
-      outputFile: 'tests_out/junit/test-results.xml'
+      outputDir: 'tests_out/junit'
     },
     coverageReporter: {
       type : 'lcovonly', // produces an lcov.info file

@@ -1,6 +1,6 @@
 {
   "name": "jenkins-ci-and-karma-junit-reporter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/erkobridee/jenkins-ci-and-karma-junit-reporter.git",
   "authors": [
     "Erko Bridee de Almeida Cabrera <erko.bridee@gmail.com>"
