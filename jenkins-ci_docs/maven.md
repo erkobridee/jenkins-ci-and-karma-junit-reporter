@@ -7,7 +7,7 @@
 
 ## Config Steps
 
-### 00 - define new jenkins job
+### 00 - define new jenkins item
 
 * on Jenkins home, click on New item
 
@@ -48,6 +48,6 @@
 * click on save button at page bottom
 
 
-## Running one Build
+## Running one build
 
 * on Project home, at left sidebar menu click on `Build Now`
