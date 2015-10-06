@@ -38,7 +38,7 @@ module.exports = {
   }),
 
   ci: _.extend({}, options, {
-    reporters: ['junit', 'coverage'],
+    reporters: ['progress', 'junit', 'coverage'],
     browsers: ['PhantomJS'],
     singleRun: true,
     colors: false,
