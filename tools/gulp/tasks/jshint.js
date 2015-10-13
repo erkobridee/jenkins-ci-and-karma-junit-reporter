@@ -1,8 +1,6 @@
 module.exports = function(gulp, $) {
 
-  // TODO: review
-
-  var jshintString = $.lazypipe()
+  var jshintStream = $.lazypipe()
     .pipe( $.cached, 'jshint' )
     .pipe( $.jshint )
     .pipe( $.jshint.reporter, 'jshint-stylish' )
@@ -10,17 +8,17 @@ module.exports = function(gulp, $) {
 
   gulp.task('jshint:project', function() {
     return gulp.src( $.config.jshint.project )
-      .pipe( jshintString() );
+      .pipe( jshintStream() );
   });
 
   gulp.task('jshint:tests', function() {
     return gulp.src( $.config.jshint.tests )
-      .pipe( jshintString() );
+      .pipe( jshintStream() );
   });
 
   gulp.task('jshint:tools', function() {
     return gulp.src( $.config.jshint.tools )
-      .pipe( jshintString() );
+      .pipe( jshintStream() );
   });
 
   gulp.task('jshint', ['jshint:project', 'jshint:tests', 'jshint:tools']);
