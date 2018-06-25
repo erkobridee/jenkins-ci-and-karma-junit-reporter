@@ -49,3 +49,7 @@
 * [Jenkins CI](https://jenkins-ci.org/)
 
 * [Sauce Labs and Jenkins Tutorial | Sauce Labs Docs](https://docs.saucelabs.com/ci-integrations/jenkins/)
+
+---
+
+* [Jenkins: Getting Karma Generated Test Results to Appear in Maven Project Job | My Shitty Code](https://myshittycode.com/2014/11/11/jenkins-getting-karma-generated-test-results-to-appear-in-maven-project-job/) - 2014/11/11
