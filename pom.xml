@@ -5,7 +5,7 @@
 
   <groupId>com.github.erkobridee.jenkins-ci-and-karma-junit-reporter</groupId>
   <artifactId>jenkins-ci-and-karma-junit-reporter</artifactId>
-  <version>0.3.1</version>
+  <version>0.4.0</version>
   <name>Example to execute Karma Runner through Jenkinks CI and load xml report file</name>
   <packaging>pom</packaging>
 
