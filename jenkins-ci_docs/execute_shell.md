@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* Must have [node.js (at least v0.10+)](http://nodejs.org/) installed with npm (Node Package Manager)
+* Must have [node.js (at LTS)](http://nodejs.org/) installed with npm (Node Package Manager)
 
 
 ## Config Steps
@@ -33,15 +33,25 @@
 
 * define command `npm test`
 
-![jenkins git repo](steps_images/cmd/step_03.png)
+![jenkins config build](steps_images/cmd/step_03.png)
 
 ### 03 - post-build actions
+
+#### JUnit tests report
 
 * on `Add post-build action` combobox select `Publish JUnit test result report`
 
 * on `Test report XMLs` field define `tests_out/junit/**/*.xml`
 
-![jenkins git repo](steps_images/step_04.png)
+![jenkins config post action junit](steps_images/step_04.png)
+
+#### Coverage report
+
+* on `Add post-build action` combobox select `Publish Cobertura Coverage Report`
+
+* on `Cobertura xml report pattern` field define `tests_out/coverage/**/*.xml`
+
+![jenkins config post action coverage](steps_images/step_05.png)
 
 ### 04 - save
 
