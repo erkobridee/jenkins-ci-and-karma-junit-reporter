@@ -13,6 +13,7 @@ module.exports = function(gulp, $) {
     } else if( code === 0 ) { // tests executed
       $.onSuccess('Karma: executed');
     }
+    process.exit( code );
     done();
   }
 
