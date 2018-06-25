@@ -47,10 +47,16 @@ module.exports = {
       outputDir: 'tests_out/junit',
       outputFile: 'test-results.xml'
     },
+    // coverageReporter: {
+    //   type : 'lcovonly', // produces an lcov.info file
+    //   dir : 'tests_out/coverage/',
+    //   subdir: '.'
+    // }
     coverageReporter: {
-      type : 'lcovonly', // produces an lcov.info file
+      type : 'cobertura', // produces an lcov.info file
       dir : 'tests_out/coverage/',
-      subdir: '.'
+      subdir: '.',
+      file: 'coverage-results.xml'
     }
   })
 
