@@ -53,3 +53,5 @@
 ---
 
 * [Jenkins: Getting Karma Generated Test Results to Appear in Maven Project Job | My Shitty Code](https://myshittycode.com/2014/11/11/jenkins-getting-karma-generated-test-results-to-appear-in-maven-project-job/) - 2014/11/11
+
+* [Java Code Coverage With Cobertura and Jenkins - Log Analysis | Log Monitoring by Loggly](https://www.loggly.com/blog/java-code-coverage-with-cobertura-and-jenkins/) - 2011/11/29
