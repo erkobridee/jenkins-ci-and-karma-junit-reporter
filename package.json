@@ -29,7 +29,7 @@
   "devDependencies": {
     "browser-sync": "^2.9.8",
     "del": "^2.0.2",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-cached": "^1.1.0",
     "gulp-jshint": "^1.11.2",
     "gulp-load-plugins": "^1.0.0-rc.1",
@@ -50,7 +50,7 @@
     "lodash": "^3.10.1",
     "phantomjs": "^1.9.18",
     "requirejs": "^2.1.20",
-    "run-sequence": "^1.1.4",
+    "run-sequence": "^2.2.1",
     "yargs": "^3.26.0"
   },
   "dependencies": {
