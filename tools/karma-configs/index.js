@@ -48,7 +48,7 @@ module.exports = {
       outputFile: 'test-results.xml'
     },
     coverageReporter: {
-      type : 'cobertura', // produces an lcov.info file
+      type : 'cobertura',
       dir : 'tests_out/coverage/',
       subdir: '.',
       file: 'coverage-results.xml'
