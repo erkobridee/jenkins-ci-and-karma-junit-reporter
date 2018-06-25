@@ -1,6 +1,6 @@
 {
   "name": "jenkins-ci-and-karma-junit-reporter",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "private": true,
   "homepage": "https://github.com/erkobridee/jenkins-ci-and-karma-junit-reporter.git",
   "authors": [
@@ -8,7 +8,6 @@
   ],
   "description": "Example to execute Karma Runner through Jenkinks CI and load xml report file. Karma Runner and require.js + angular.js modular application with Gulp.js. Code and test specs together in same directory module. Vendors Libs, Application Source and Tests specs loaded by require.js on Karma Runner test page.",
   "scripts": {
-    "outdated": "npm outdated --depth=0",
     "prestart": "npm run setup",
     "start": "echo \"start development\n\" && gulp dev",
     "pretest": "npm run setup",
